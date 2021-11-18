@@ -1,0 +1,83 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#wrapper {
+    background-color: #f1f5f8;
+    padding: 70px 0px;
+}
+
+#wrapper h4 {
+    font-size: 40px;
+}
+
+#wrapper .underline{
+    width: 100px;
+    height: 3px;
+    margin: 0px auto;
+    background-color: #49a6e9;
+}
+
+.review-item{
+    max-width: 600px;
+    margin: 0px auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 20px 40px;
+}
+
+
+.review-item .review-item-image .img-background{
+    width: 150px;
+    height: 150px;
+    margin: 0px auto;
+    background-color: paleturquoise;
+    border-radius: 50%;
+}
+
+.review-item .review-item-image img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 42.5%;
+}
+
+.review-item-info h5.title {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.review-item-info .job {
+    font-weight: lighter;
+    color: #49a6e9;
+    text-transform: uppercase;
+}
+
+.review-item-info .description{
+    font-weight: lighter;
+}
+
+.button{
+    outline: none!important;
+    background: none;
+    border: none;
+    color: #49a6e9;
+    transition: 0.25s ease-in-out;
+}
+
+.button:hover {
+    color: #1878bd;
+}
+
+.button-icon {
+    font-size: 22px;
+}
+
+.button-surprise{
+    background-color: #d1e7e7;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
